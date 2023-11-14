@@ -1,0 +1,13 @@
+---
+- name:  
+  hosts: all
+  vars_files:
+    - vars.yml
+
+  tasks:
+    - name: 
+      block:
+        - include_tasks: tasks.yml
+          loop:
+
+      tags: 
